@@ -89,7 +89,7 @@ class Queue(object):
 if __name__ == '__main__':
     """
     $ python 2.由两个栈组成的队列.py
-        
+
     [9] [9]
     [9, 18] [9, 18]
     [9, 18, 10] [9, 18, 10]
@@ -122,7 +122,7 @@ if __name__ == '__main__':
     5
     19
     6
-        
+
     """
     import random
 
