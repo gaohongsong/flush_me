@@ -8,7 +8,7 @@ for f in *.py;
 do
      if [[ $f =~ ^[0-9]{1,}.*.py ]]
      then
-        echo "## $f" >> ./README.md
+        echo "### $f" >> ./README.md
      else
         echo "skipped: $f"
      fi
