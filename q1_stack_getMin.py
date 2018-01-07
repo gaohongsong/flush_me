@@ -31,9 +31,8 @@ class MyStack(object):
             入栈基本元素的同时，负责维护最小栈
         """
         # 栈为空，直接入栈当前元素
-        _item_min = item if self._stk_min == [] else self._peek(self._stk_min)
-        item_min = min(_item_min, item)
-        # print 'min({}, {}) = {}'.format(_item_min, item, item_min)
+        _stk_min_top = item if self._stk_min == [] else self._peek(self._stk_min)
+        item_min = min(_stk_min_top, item)
 
         self._stk_min.append(item_min)
         self._stack.append(item)
